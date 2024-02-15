@@ -16,7 +16,7 @@ import { userPostPage } from './view/userPost.js'
 const main = document.querySelector('#box');
 
 page(middleware);
-page('index.html', '/');
+page('/index.html', '/');
 page('/', homePage);
 page('/login',loginPage);
 page('/register',registerPage);
